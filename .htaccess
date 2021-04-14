@@ -1,0 +1,9 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^esawah\.my\.id$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.esawah\.my\.id$
+RewriteRule ^/?$ "https\:\/\/www\.esawah\.my\.id\/" [R=301,L]
+
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+SetHandler application/x-httpd-alt-php73___lsphp
+</FilesMatch>
