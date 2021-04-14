@@ -7,7 +7,7 @@
 <ul>
 <li>framework: laravel 7.17.2</li>
 <li>php: PHP >= 7.2.5</li>
-<ul>
+</ul>
 
 ## Changelogs
 <b><i>v1.0.0</i></b>
