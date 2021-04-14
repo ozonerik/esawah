@@ -1,0 +1,33 @@
+@extends('layouts.back')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Dashboard</div>
+
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+
+                    <p>
+                        Hi <strong>{{ auth()->user()->name }}</strong>, 
+                        Anda login sebagai 
+                        @can('isAdmin')
+                            <span class="btn btn-primary">Admin</span>
+                        @elsecan('isPro')
+                            <span class="btn btn-info">Pro</span>
+                        @elsecan('isFree')
+                            <span class="btn btn-warning">Free</span>
+                        @endcan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
