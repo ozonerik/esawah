@@ -2,11 +2,16 @@
 
 ## About esawah
 
-esawah adalah sistem informasi dan managerial tentang penyewaan sawah
-informasi teknis:
-framework: laravel 7.17.2
-requirement
-php: PHP >= 7.2.5
+<b>esawah</b> adalah sistem informasi dan managerial tentang penyewaan sawah
+<br><b>informasi teknis:</b>
+<ul>
+<li>framework: laravel 7.17.2</li>
+<li>php: PHP >= 7.2.5</li>
+<ul>
 
 ## Changelogs
-v1.0.0
+<b><i>v1.0.0</i></b>
+<ul>
+<li></li>
+</ul>
+
