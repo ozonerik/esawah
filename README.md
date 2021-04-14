@@ -1,4 +1,4 @@
-<p align="center"><img src="public/esawah.svg" width="400"></p>
+<p align="center"><img src="https://www.esawah.my.id/logo/esawah-logo.png" width="400"></p>
 
 ## About esawah
 
